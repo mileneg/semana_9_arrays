@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     filtro.sort(function(a,b){
       return a.toLowerCase().localeCompare(b.toLowerCase())
     });
-    showList(filtro)
+    showList(filtro);
   // Escribe tu solución aquí
   // Sugerencia de cómo mostrar el array => showList(strangeArray);
 });
